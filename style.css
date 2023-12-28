@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+
+
+/* INICIO INDEX */
+
+.body_index{
+    background-image: url(./multimedia/backgorunds/anastasia-shiyankova-b-06.jpg);
+    background-size:cover;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 90px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content:flex-start;
+    gap: 620px;
+    margin-left: 40px;
+    
+}
+
+.nav img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.nav ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: ;
+}
